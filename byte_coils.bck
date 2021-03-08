@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NFA18SL227V1A45L
+D NFA18SL Series EMI Suppression Filter Cutoff 220MHz 25mA 10V
+F https://www.murata.com/en-us/products/productdetail?partno=NFA18SL227V1A45%23
+$ENDCMP
+#
+#End Doc Library

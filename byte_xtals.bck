@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NX2012SA-32.768K-STD-MUB-1
+D NDK 32.76kHz Crystal Unit +/-20ppm SMD 2-Pin 2.05 x 1.2 x 0.55mm
+F https://www.mouser.de/datasheet/2/905/c_NX2012SA-STD-MUB-1_e-1317508.pdf
+$ENDCMP
+#
+$CMP NX2016SA-32M-EXS00A-CS06465
+D CRYSTAL 32MHZ 10PF SMD
+F http://www.ndk.com/images/products/catalog/c_NX2016SA_e.pdf
+$ENDCMP
+#
+#End Doc Library

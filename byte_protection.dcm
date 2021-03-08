@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RBO40-40G-TR
+D ESD Suppressors / TVS Diodes Reversed Battery OverVolt Prot 
+K esd,tvs,ovevolt
+F https://www.mouser.se/datasheet/2/389/rbo40-1849789.pdf
+$ENDCMP
+#
+#End Doc Library

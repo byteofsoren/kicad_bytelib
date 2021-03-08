@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GY-85_9DOF_IMU
+D IMU with low noise. 
+K IMU,ITG3205,ADXL345,HMC5883L
+F https://www.herdware.com/shop/uncategorized/gy-85-sensor-module-9-axis-6dof-9dof-imu-sensor/
+$ENDCMP
+#
+#End Doc Library

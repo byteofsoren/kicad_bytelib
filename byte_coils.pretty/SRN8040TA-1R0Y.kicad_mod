@@ -1,0 +1,12 @@
+(module SRN8040TA-1R0Y (layer F.Cu) (tedit 5F846705)
+  (fp_text reference REF** (at 0 7.62) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SRN8040TA-1R0Y (at 0 -6.35) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -4.0005 2.6035) (end -4.0005 -2.667) (layer F.SilkS) (width 0.12))
+  (fp_line (start 4.0005 2.6035) (end 4.0005 -2.6035) (layer F.SilkS) (width 0.12))
+  (pad 1 smd roundrect (at 0 -2.7) (size 6.6 2.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (pad 2 smd roundrect (at 0 2.7) (size 6.6 2.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+)

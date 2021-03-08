@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP23008-E_P
+D I/O Expander 8bit 8-channel 5MHz I2C, Serial MHz, 18-pin PDIP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf
+$ENDCMP
+#
+#End Doc Library

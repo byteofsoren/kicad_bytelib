@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BD62130AEFJ
+F https://www.mouser.se/datasheet/2/348/bd62130aefj-e-1873766.pdf
+$ENDCMP
+#
+$CMP FDD306P
+F https://www.mouser.se/datasheet/2/308/FDD306P-D-1806812.pdf
+$ENDCMP
+#
+$CMP NTD4815N-35G
+F https://www.mouser.se/datasheet/2/308/NTD4815N-D-1813796.pdf
+$ENDCMP
+#
+#End Doc Library

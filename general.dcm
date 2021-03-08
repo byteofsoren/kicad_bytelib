@@ -1,0 +1,62 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1-2834015-3
+D TE CONNECTIVITY - 1-2834015-3 - Wire-To-Board Terminal Block, Screwless, 2.54 mm, 3 Ways, 26 AWG, 20 AWG, Clamp
+F https://componentsearchengine.com/Datasheets/1/1-2834015-3.pdf
+$ENDCMP
+#
+$CMP AST605Q
+F https://eu.mouser.com/datasheet/2/252/AST605Q-1520129.pdf
+$ENDCMP
+#
+$CMP INA122
+F https://www.ti.com/lit/gpn/ina122
+$ENDCMP
+#
+$CMP JCH1012S05-Isolated_DCDC_5V2A
+F http://www.farnell.com/datasheets/1903626.pdf?_ga=2.40092838.568984239.1585084155-465401023.1585084155
+$ENDCMP
+#
+$CMP LM25180
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM25180
+$ENDCMP
+#
+$CMP LM258ADT
+F https://www.mouser.se/datasheet/2/389/lm158-954927.pdf
+$ENDCMP
+#
+$CMP LM5155DSSR
+D 2.2MHz wide VIN non-synchronous boost controller
+F http://www.ti.com/lit/gpn/LM5155
+$ENDCMP
+#
+$CMP LTST-S270KGKT
+D Lite-On LTST-S270KGKT, 571 nm Green LED, 1608 (0603) Side View SMD package
+F https://componentsearchengine.com/Datasheets/1/LTST-S270KGKT.pdf
+$ENDCMP
+#
+$CMP MCP6L01UT-E_OT
+F https://www.mouser.se/datasheet/2/268/22140a-71218.pdf
+$ENDCMP
+#
+$CMP NTF5P03T3G
+D Power MOSFET
+F http://www.onsemi.com/pub/Collateral/NTF5P03T3-D.PDF
+$ENDCMP
+#
+$CMP TPS40211DGQ
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps40211
+$ENDCMP
+#
+$CMP WE-TVS_82400102
+D TVS diode from Wurth used in USB comunication
+K TVS,USB
+F https://www.we-online.com/catalog/datasheet/82400102.pdf
+$ENDCMP
+#
+$CMP ZXCT1081
+D The ZXCT1081 is a high side current sense monitor with a gain of 10 and a voltage output. Using this device eliminates the need to disrupt the ground plane when sensing a load current.
+F https://eu.mouser.com/datasheet/2/115/ZXCT1081-55904.pdf
+$ENDCMP
+#
+#End Doc Library

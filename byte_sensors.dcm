@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABPDRRV015PDAA5
+D Trycksensorer för kortfäste 1.04bar (15psi), Diff, DIP, Dual ports, Analogue, 5v, Liquid/Gas
+K pressure,sensor
+F https://www.mouser.se/datasheet/2/187/honeywell_sensing_basic_board_mount_pressure_abp_s-1662208.pdf
+$ENDCMP
+#
+$CMP ABPMRRV015PD2A3
+D Trycksensorer för kortfäste 1.04bar (15psi), Diff, DIP, Dual ports, Analogue, 5v, Liquid/Gas
+K pressure,sensor
+F https://www.mouser.se/datasheet/2/187/honeywell_sensing_basic_board_mount_pressure_abp_s-1662208.pdf
+$ENDCMP
+#
+#End Doc Library

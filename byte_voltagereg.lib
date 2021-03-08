@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# UA78M33CDCYR
+#
+DEF UA78M33CDCYR U 0 30 Y N 1 F N
+F0 "U" -200 250 50 H V L CNN
+F1 "UA78M33CDCYR" -200 150 50 H V L CNN
+F2 "byte_voltagereg:SOT230P700X180-4N" 900 1000 50 H I L CNN
+F3 "" 900 900 50 H I L CNN
+F4 "500-mA, 25-V, Linear Voltage Regulators" 900 800 50 H I L CNN "Description"
+F5 "1.8" 900 700 50 H I L CNN "Height"
+F6 "595-UA78M33CDCYR" 900 600 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA78M33CDCYR?qs=LfG3tU9ud8DRKHAAx6wmNw%3D%3D" 900 500 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 900 400 50 H I L CNN "Manufacturer_Name"
+F9 "UA78M33CDCYR" 900 300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+T 0 0 -100 50 0 0 0 GND Normal 0 C C
+T 0 -100 0 50 0 0 0 In Normal 0 C C
+T 0 75 0 50 0 0 0 Out Normal 0 C C
+S -150 50 150 -150 0 1 0 f
+X INPUT 1 -350 0 200 R 50 50 0 0 W
+X COMMON_1 2 -50 -350 200 U 50 50 0 0 P
+X OUTPUT 3 350 0 200 L 50 50 0 0 w
+X COMMON_2 4 50 -350 200 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

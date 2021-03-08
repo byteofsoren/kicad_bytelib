@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM22679TJE-5.0_NOPB
+D SIMPLE SWITCHER 4.5V to 42V, 5A Step-Down Voltage Regulator with Adjustable Soft-Start & Current Li
+F http://www.ti.com/lit/gpn/lm22679
+$ENDCMP
+#
+$CMP LMZM23601V5SILR
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Flmzm23601.pdf
+$ENDCMP
+#
+$CMP PDQE15-Q24-S3-D
+D Isolated DCDC converter
+K DCDC, Isolated
+F https://eu.mouser.com/datasheet/2/670/pdqe15-d-1596060.pdf
+$ENDCMP
+#
+$CMP TPS2120
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http://www.ti.com/lit/ds/symlink/tps2121.pdf
+$ENDCMP
+#
+$CMP TPS2121
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http://www.ti.com/lit/ds/symlink/tps2121.pdf
+$ENDCMP
+#
+#End Doc Library
