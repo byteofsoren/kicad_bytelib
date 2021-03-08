@@ -15,7 +15,14 @@ K DCDC, Isolated
 F https://eu.mouser.com/datasheet/2/670/pdqe15-d-1596060.pdf
 $ENDCMP
 #
+$CMP RPMB12-3.0-CT
+D Non-Isolated DC/DC Converters 12.8-36Vi 12Vo 3A 9-24VTrim Reg
+F https://www.mouser.co.uk/datasheet/2/468/RPMB-3.0-1670415.pdf
+$ENDCMP
+#
 $CMP TPS2120
+D Power multiplexer.
+K Power,MUX
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http://www.ti.com/lit/ds/symlink/tps2121.pdf
 $ENDCMP
 #

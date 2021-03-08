@@ -15,6 +15,10 @@ K DCDC, Isolated
 F https://eu.mouser.com/datasheet/2/670/pdqe15-d-1596060.pdf
 $ENDCMP
 #
+$CMP RP605
+F https://www.mouser.se/datasheet/2/792/rp605-ea-1815205.pdf
+$ENDCMP
+#
 $CMP RPMB12-3.0-CT
 D Non-Isolated DC/DC Converters 12.8-36Vi 12Vo 3A 9-24VTrim Reg
 F https://www.mouser.co.uk/datasheet/2/468/RPMB-3.0-1670415.pdf
