@@ -7,7 +7,7 @@ $ git clone https://github.com/byteofsoren/kicad_bytelib.git
 ```
 2. Write down the full path to the library.
 3. Add 'BYTELIB' path to KiCad and target the cloned path
-4. Update the 'fp-lib-table' by adding 'fp-lib-table.update' to the end of the file.
+4. Update the 'fp-lib-table' by adding 'conf/fp-lib-table.update' to the end of the file.
 
 ## How to find fp-lib-table
 1. Start KiCAD.
@@ -21,5 +21,8 @@ $ git clone https://github.com/byteofsoren/kicad_bytelib.git
 2. In Preferences -> Configure Paths...
 3. Add BYTELIB and point it to the target
 
-
+## A other approach to ft-lib-table
+A other approach is to symlink your `ft-lib-table` over to this repo.
+The drawback of that is you connect your globals to my globals and if I update the libary
+you to will have a updated libary.
 
