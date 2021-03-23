@@ -7,8 +7,7 @@ $ git clone https://github.com/byteofsoren/kicad_bytelib.git
 ```
 2. Write down the full path to the library.
 3. Add 'BYTELIB' path to KiCad and target the cloned path
-4. Update your local `fp-lib-table` by copy-paste  `conf/fp-lib-table.update` in to your local file.
-4. Update your local `sym-lib-table` by copy-pase `conf/sym-lib-table.update` in to your local file.
+4. Open your local `fp-lib-table` stored in ether `$HOME/.conf/kicad` or `Appdata/Roaming/kicad`
 NOTE: `conf/fp-lib-table` is not your local `fp-lib-table`
 
 ## How to find fp-lib-table and sym-lib-table
