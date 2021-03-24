@@ -3,7 +3,6 @@
   (lib (name byte_coils)(type KiCad)(uri ${BYTELIB}/byte_coils.pretty)(options "")(descr "Coils I used in projects."))
   (lib (name byte_connectors)(type KiCad)(uri ${BYTELIB}/byte_connectors.pretty)(options "")(descr "Connectors I used in projects."))
   (lib (name byte_tvs)(type KiCad)(uri ${BYTELIB}/byte_tvs.pretty)(options "")(descr ""))
-  (lib (name bytelib_kicad)(type KiCad)(uri ${BYTELIB}.pretty)(options "")(descr "")(disabled))
   (lib (name mcu)(type KiCad)(uri ${BYTELIB}/byte_mcu/mcu.pretty)(options "")(descr "")(disabled))
   (lib (name byte_mcu)(type KiCad)(uri ${BYTELIB}/byte_mcu.pretty)(options "")(descr "Processors and other computational units."))
   (lib (name byte_tmc)(type KiCad)(uri ${BYTELIB}/byte_motorcontroll/byte_tmc.pretty)(options "")(descr ""))
@@ -16,3 +15,5 @@
   (lib (name byte_fuse)(type KiCad)(uri ${BYTELIB}/byte_fuse.pretty)(options "")(descr ""))
   (lib (name byte_xtals)(type KiCad)(uri ${BYTELIB}/byte_xtals.pretty)(options "")(descr ""))
   (lib (name byte_filters)(type KiCad)(uri ${BYTELIB}/byte_filters.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri ${DIGKEY}/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name byte_buttons)(type KiCad)(uri ${BYTELIB}/byte_buttons.pretty)(options "")(descr ""))
