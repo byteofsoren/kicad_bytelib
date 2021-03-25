@@ -43,12 +43,15 @@ the order of exequiton and increase the redability of the code.
 1. Global config
 
 This part contains variabes shared between each function in the function body
+
 2. Function body
 
 This part contains all functions used in the exequiton body.
+
 3. local settings
 
 This is abbreviatations in the exequiton body.
+
 4. Execution body
 
 This part uses the functions from the function body to abbreviate the hard paths in each KiCAD file.
@@ -58,6 +61,7 @@ This part uses the functions from the function body to abbreviate the hard paths
 This script is used to generate a short version of the symbols and footprint files.
 ## Internal structure
 As this file just have a sigle function the structure of the file is a simpler.
+
 1. Global config
 
 Global configuration is shared between functions even if there is just one function.
@@ -68,12 +72,15 @@ declare -a LIBARIES=("BYTELIB" "DIGKEY" )
 ```
 Declares a variable named `LIBARIES` that contains two entitys.
 Those are the filter that is used in the `generate` function to generate the update file.
+
 2. Initial setup
 
 Some initial cleaning and temporary directory creation.
+
 3. function `generate`
 
 Uses the `LIBARIES` variable to extract those who match the
+
 4. Execution part
 
 Uses the `generate` function on the two KiCAD files to generate a update file.
