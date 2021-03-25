@@ -1,8 +1,4 @@
 #!/bin/bash
-# Iterate the string array using for loop
-# for val in ${libaries[@]}; do
-#    echo $val
-# done
 
 # Global config
 TEMPDIR="/tmp/bytelib"

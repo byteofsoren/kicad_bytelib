@@ -1,26 +1,21 @@
 #!/bin/bash
 
-# Inserts digikey libary to key cad with an variable instead of static path.
-digikey_path="/home/r00tr4t/.kicad/digikey-kicad-library"
-bytelib_kicad="/home/r00tr4t/.kicad/bytelib_kicad"
-fpnr=$(cat fp-lib-table | grep $digikey_path | wc -l)
-symnr=$(cat sym-lib-table | grep $digikey_path | wc -l)
 
-echo -e "hard footprints $fpnr\nhard symbols $symnr"
-
-# Global config
+# -- Global config --
 TEMPDIR="/tmp/bytelib"
 # Setup
 rm -rf $TEMPDIR
 mkdir -p "$TEMPDIR"
 
-# Generates the kicad lbrarys to contain the custom enviroments.
-# Asume that a entry in the libary contains a hard coded path
+# -- Function body start -- [[
+
+# Generates the kicad library to contain the custom environments.
+# Assume that a entry in the library contains a hard coded path
 # as /home/user/.kicad/bytelib
 # Then that path must be substituted with
 # ${BYTELIB} alone to be able to work on other computers.
 # This program replaces those hard coded paths in to
-# envirionmental variables.
+# environmental variables.
 #
 # Insert filename hardpath variable tempfile
 #
@@ -57,7 +52,7 @@ function generate() {
 }
 
 # Body
-# Body captures the libaries that already have a envirioment variable
+# Body captures the libraries that already have a environment variable
 #
 # body filename tempfile
 #
@@ -93,7 +88,7 @@ function merge() {
 }
 
 # Apply
-# The apply function asks if the changes should be applied to the libaryfile.
+# The apply function asks if the changes should be applied to the libraryfile.
 #
 # apply tempfile taregtfile
 #
@@ -120,12 +115,28 @@ function apply() {
 	fi
 }
 
+# clean
+# just remove the temporary directories
 function clean() {
     rm -rf $TEMPDIR
 }
-# local settings
+
+# -- Function body end -- ]]
+
+
+# -- local settings --
 symfile="sym-lib-table"
 fpfile="fp-lib-table"
+digikey_path="/home/r00tr4t/.kicad/digikey-kicad-library"
+bytelib_kicad="/home/r00tr4t/.kicad/bytelib_kicad"
+
+# -- Execution body -- [[
+
+# For debugging purpose.
+# fpnr=$(cat fp-lib-table | grep $digikey_path | wc -l)
+# symnr=$(cat sym-lib-table | grep $digikey_path | wc -l)
+# echo -e "hard footprints $fpnr\nhard symbols $symnr"
+
 # Generate libarys
 generate 	$symfile 			$digikey_path 		DIGKEY 		$symfile-digkey
 generate 	$symfile 			$bytelib_kicad  	BYTELIB 	$symfile-bytelib
@@ -146,4 +157,5 @@ apply $symfile $symfile
 apply $fpfile $fpfile
 # clean
 
+# -- Execution body end -- ]]
 
