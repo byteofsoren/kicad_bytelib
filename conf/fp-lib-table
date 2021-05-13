@@ -1,3 +1,4 @@
+(fp_lib_table
   (lib (name Battery)(type KiCad)(uri ${KISYSMOD}/Battery.pretty)(options "")(descr "Battery and battery holder footprints"))
   (lib (name Button_Switch_Keyboard)(type KiCad)(uri ${KISYSMOD}/Button_Switch_Keyboard.pretty)(options "")(descr "Buttons and switches for keyboard applications"))
   (lib (name Button_Switch_SMD)(type KiCad)(uri ${KISYSMOD}/Button_Switch_SMD.pretty)(options "")(descr "Buttons and switches, surface mount"))
@@ -143,3 +144,4 @@
   (lib (name byte_filters)(type KiCad)(uri ${BYTELIB}/byte_filters.pretty)(options "")(descr ""))
   (lib (name digikey-footprints)(type KiCad)(uri ${DIGKEY}/digikey-footprints.pretty)(options "")(descr ""))
   (lib (name byte_buttons)(type KiCad)(uri ${BYTELIB}/byte_buttons.pretty)(options "")(descr ""))
+)
