@@ -14,7 +14,7 @@
   (pad 3 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.6) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 7.62 0) (size 2.5 2.5) (drill 1.6) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 15.24 0) (size 2.5 2.5) (drill 1.6) (layers *.Cu *.Mask))
-  (model :temp:691317410005_Download_STP_691317410005_rev1.stp
+  (model "${BYTELIB}/3D/691317410005_Download_STP_691317410005_rev1.stp"
     (offset (xyz 0 4 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

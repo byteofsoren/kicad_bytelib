@@ -25,7 +25,7 @@
   (pad 3 thru_hole circle (at -10.16 2.54) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -10.16 -2.54) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 10.16 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
-  (model :temp:PDQE15-Q24-S3-D/CUI_PDQE15-Q24-S3-D.step
+  (model "${BYTELIB}/3D/PDQE15-Q24-S3-D/CUI_PDQE15-Q24-S3-D.step"
     (offset (xyz 0 0 0.1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

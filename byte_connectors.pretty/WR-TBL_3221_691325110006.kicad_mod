@@ -20,12 +20,12 @@
   (pad 4 thru_hole oval (at 1.75 0) (size 2 2.5) (drill 1.4) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 5.25 0) (size 2 2.5) (drill 1.4) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 8.75 0) (size 2 2.5) (drill 1.4) (layers *.Cu *.Mask))
-  (model :temp:691325110006_Download_STP_691325110006_rev1.stp
+  (model "${BYTELIB}/3D/691325110006_Download_STP_691325110006_rev1.stp"
     (offset (xyz 0 3.45 3.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
-  (model :temp:691364100006_Download_STP_691364100006_rev1.stp
+  (model "${BYTELIB}/3D/691364100006_Download_STP_691364100006_rev1.stp"
     (offset (xyz 0 13.1 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

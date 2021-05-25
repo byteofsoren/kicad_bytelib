@@ -16,7 +16,7 @@
   (pad 3 thru_hole oval (at 2.54 0) (size 1.4 3) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 0) (size 1.4 3) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at -2.54 0) (size 1.4 3) (drill 1) (layers *.Cu *.Mask))
-  (model :temp:P78E05-1000/3D/P78E05-1000.stp
+  (model "${BYTELIB}/3D/P78E05-1000/3D/P78E05-1000.stp"
     (offset (xyz -2.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

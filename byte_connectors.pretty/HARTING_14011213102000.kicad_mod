@@ -35,7 +35,7 @@
   (pad "" smd rect (at 16.54 -0.75) (size 1.1 6) (layers *.Adhes *.Paste *.Mask F.Cu))
   (pad "" np_thru_hole circle (at -15.27 -0.75) (size 1.1 1.1) (drill 1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 15.27 -0.75) (size 1.1 1.1) (drill 1) (layers *.Cu *.Mask))
-  (model :temp:14011213102000_100540075MOD000A.STP
+  (model "${BYTELIB}/3D/14011213102000_100540075MOD000A.STP"
     (offset (xyz 14 4.7 3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

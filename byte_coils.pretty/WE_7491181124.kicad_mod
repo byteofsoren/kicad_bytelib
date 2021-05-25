@@ -29,7 +29,7 @@
   (pad 4 thru_hole oval (at 2.72 7.675) (size 1.5 2) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 5.25 -7.675) (size 1.5 2) (drill 1) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 5.44 7.675) (size 1.5 2) (drill 1) (layers *.Cu *.Mask))
-  (model :temp:WE-UNIT_E13_7_4_horizontal.stp
+  (model "${BYTELIB}/3D/WE-UNIT_E13_7_4_horizontal.stp"
     (offset (xyz 0 -2.2 6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

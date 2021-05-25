@@ -24,7 +24,7 @@
   (pad 10 thru_hole circle (at 0 -1.1) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 11 thru_hole circle (at 0.95 0.55) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at -0.95 0.55) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model :temp:HR10A-10R-12SB.step
+  (model "${BYTELIB}/3D/HR10A-10R-12SB.step"
     (offset (xyz 0.1 0 0.7))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 150))

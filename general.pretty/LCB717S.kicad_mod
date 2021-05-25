@@ -24,7 +24,7 @@
   (pad 4 smd roundrect (at 2.54 -4.45) (size 0.7 1.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd roundrect (at 0 -4.45) (size 0.7 1.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 6 smd roundrect (at -2.54 -4.45) (size 0.7 1.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model :temp:LCB717S/3D/LCB717S.stp
+  (model "${BYTELIB}/3D/LCB717S/3D/LCB717S.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

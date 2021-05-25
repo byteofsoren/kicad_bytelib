@@ -52,7 +52,7 @@
   (pad A3 smd rect (at 0 -4.58) (size 1.06 1.06) (layers F.Cu F.Paste F.Mask))
   (pad A2 smd rect (at -2.29 -4.58) (size 1.06 1.06) (layers F.Cu F.Paste F.Mask))
   (pad A1 smd rect (at -4.58 -4.58) (size 1.06 1.06) (layers F.Cu F.Paste F.Mask))
-  (model :temp:RPMB12-3.0-CT/3D/RPMB12-3.0-CT.stp
+  (model "${BYTELIB}/3D/RPMB12-3.0-CT/3D/RPMB12-3.0-CT.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

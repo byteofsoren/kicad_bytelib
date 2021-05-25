@@ -46,7 +46,7 @@
   (pad A3 smd circle (at 0.2 -0.8 90) (size 0.226 0.226) (layers F.Cu F.Paste F.Mask))
   (pad A2 smd circle (at -0.2 -0.8 90) (size 0.226 0.226) (layers F.Cu F.Paste F.Mask))
   (pad A1 smd circle (at -0.6 -0.8 90) (size 0.226 0.226) (layers F.Cu F.Paste F.Mask))
-  (model :temp:TPS2120YFPR/3D/TPS2120YFPR.stp
+  (model "${BYTELIB}/3D/TPS2120YFPR/3D/TPS2120YFPR.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

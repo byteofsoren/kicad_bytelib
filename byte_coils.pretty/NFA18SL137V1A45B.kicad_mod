@@ -43,7 +43,7 @@
   (pad 3 smd rect (at -0.6 -0.425) (size 0.175 0.35) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0.825 0 90) (size 0.175 0.35) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.825 0 90) (size 0.175 0.35) (layers F.Cu F.Paste F.Mask))
-  (model :temp:NFA18SL227V1A45L/3D/NFA18SL227V1A45L.stp
+  (model "${BYTELIB}/3D/NFA18SL227V1A45L/3D/NFA18SL227V1A45L.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

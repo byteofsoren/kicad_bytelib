@@ -39,7 +39,7 @@
   (pad 3 thru_hole circle (at -3.969 -5.08) (size 1.159 1.159) (drill 0.759) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.969 -7.62) (size 1.159 1.159) (drill 0.759) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -3.969 -10.16) (size 1.159 1.159) (drill 0.759) (layers *.Cu *.Mask))
-  (model :temp:MCP23008-E_P/3D/MCP23008-E_P.stp
+  (model "${BYTELIB}/3D/MCP23008-E_P/3D/MCP23008-E_P.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

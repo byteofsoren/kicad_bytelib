@@ -30,7 +30,7 @@
   )
   (pad 2 thru_hole circle (at 44.3 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
-  (model :temp:10A10-T/3D/10A10-T.stp
+  (model "${BYTELIB}/3D/10A10-T/3D/10A10-T.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

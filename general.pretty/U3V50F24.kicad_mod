@@ -33,7 +33,7 @@
   (pad 4 thru_hole rect (at -1.27 19.07) (size 1.6 1.6) (drill 1.02) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -3.81 19.07) (size 1.6 1.6) (drill 1.02) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -6.35 19.07) (size 1.6 1.6) (drill 1.02) (layers *.Cu *.Mask))
-  (model :temp:pololu-step-up-voltage-regulator-u3v50x.step
+  (model "${BYTELIB}/3D/pololu-step-up-voltage-regulator-u3v50x.step"
     (offset (xyz -7.6 24.1 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

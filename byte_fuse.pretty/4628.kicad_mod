@@ -23,7 +23,7 @@
   (pad MH1 thru_hole circle (at 11.25 0) (size 5.475 5.475) (drill 3.65) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 22.5 0) (size 2.085 2.085) (drill 1.32) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0) (size 2.085 2.085) (drill 1.32) (layers *.Cu *.Mask))
-  (model :temp:4628/3D/4628.stp
+  (model "${BYTELIB}/3D/4628/3D/4628.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

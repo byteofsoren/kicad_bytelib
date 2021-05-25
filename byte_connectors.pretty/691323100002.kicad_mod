@@ -15,12 +15,12 @@
   (fp_line (start -8.636 2.794) (end -8.636 -4.318) (layer F.CrtYd) (width 0.12))
   (pad 1 thru_hole circle (at -1.75 0) (size 2 2) (drill 1.4) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 1.75 0) (size 2 2) (drill 1.4) (layers *.Cu *.Mask))
-  (model :temp:691323100002.stp
+  (model "${BYTELIB}/3D/691323100002.stp"
     (offset (xyz 0 0.8 4.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model :temp:691364100002.stp
+  (model "${BYTELIB}/3D/691364100002.stp"
     (offset (xyz 0 0 14))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
