@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TSM480P06CP
+D 19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.mouser.se/datasheet/2/395/TSM480P06_D14-1918967.pdf
+$ENDCMP
+#
+#End Doc Library
