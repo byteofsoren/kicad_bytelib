@@ -19,7 +19,7 @@ TEMP="$HOME/tmp/imports/"
 TARGET="3D/"
 
 # File types to search for is here:
-FTYPE=( "STEP" "step" "vrml" "stp"  "wrl" "stl" )
+FTYPE=( "STEP" "step" "vrml" "stp"  "wrl" "stl" "STL" )
 
 
 # Variable derived form temp to escape each / with a \/.
