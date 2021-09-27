@@ -155,6 +155,31 @@ X TRIM E5 650 -100 200 L 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #
+# TEN_3-0510N
+#
+DEF TEN_3-0510N PS 0 30 Y Y 1 F N
+F0 "PS" 850 150 50 H V L CNN
+F1 "TEN_3-0510N" 2750 250 50 H V L CNN
+F2 "byte_DCDC:TEN30510N" 2750 150 50 H I L CNN
+F3 "" 2750 50 50 H I L CNN
+F4 "3 Watt DC/DC converter, industrial, 2:1 input, cost optimized design, encapsulated, DIP-24" 2750 -50 50 H I L CNN "Description"
+F5 "10.7" 2750 -150 50 H I L CNN "Height"
+F6 "495-TEN3-0510N" 2750 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEN-3-0510N?qs=ckJk83FOD0XEig9TdDHs7A%3D%3D" 2750 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Traco Power" 2750 -450 50 H I L CNN "Manufacturer_Name"
+F9 "TEN 3-0510N" 2750 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1800 100 1800 -400 200 -400 200 100 f
+X NTC 11 0 -400 200 R 50 50 0 0 N N
+X +VOUT 14 2000 -250 200 L 50 50 0 0 w
+X -VOUT 16 2000 -50 200 L 50 50 0 0 w
+X -VIN_(GND)_1 2 0 -200 200 R 50 50 0 0 P
+X +VIN_(VCC)_1 22 0 0 200 R 50 50 0 0 W
+X +VIN_(VCC)_2 23 0 -100 200 R 50 50 0 0 W
+X -VIN_(GND)_2 3 0 -300 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # TPS2120
 #
 DEF TPS2120 U 0 40 Y Y 1 F N

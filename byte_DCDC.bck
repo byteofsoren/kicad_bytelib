@@ -24,6 +24,11 @@ D Non-Isolated DC/DC Converters 12.8-36Vi 12Vo 3A 9-24VTrim Reg
 F https://www.mouser.co.uk/datasheet/2/468/RPMB-3.0-1670415.pdf
 $ENDCMP
 #
+$CMP TEN_3-0510N
+D 3 Watt DC/DC converter, industrial, 2:1 input, cost optimized design, encapsulated, DIP-24
+F https://tracopower.com/ten3n-datasheet/
+$ENDCMP
+#
 $CMP TPS2120
 D Power multiplexer.
 K Power,MUX

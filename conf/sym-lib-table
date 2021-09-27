@@ -208,4 +208,5 @@
   (lib (name byte_BMS)(type Legacy)(uri ${BYTELIB}/byte_BMS.lib)(options "")(descr "Batery managment Systems"))
   (lib (name byte_bussconverters)(type Legacy)(uri ${BYTELIB}/byte_bussconverters.lib)(options "")(descr "Conversions from tex USB to TLL or RS485 to CAN buss."))
   (lib (name byte_mosfet)(type Legacy)(uri /home/r00tr4t/.kicad/bytelib_kicad/byte_mosfet.lib)(options "")(descr ""))
+  (lib (name byte_tvs)(type Legacy)(uri /home/r00tr4t/.kicad/bytelib_kicad/byte_tvs.lib)(options "")(descr ""))
 )

@@ -1,5 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADM2761E
+D Digital isolator for RS485
+K isolator,RS485
+F https://www.mouser.se/datasheet/2/609/adm2761e_adm2763e-1890335.pdf
+$ENDCMP
+#
+$CMP ADUM1250
+D Isolator for I2C.
+K isolator,i2c
+F https://www.mouser.se/datasheet/2/609/ADUM1250_1251-1503560.pdf
+$ENDCMP
+#
+$CMP ADUM4160BRIZ-RL
+D Digital Isolators 8mm Creep. Full/Low Speed USB Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
+$ENDCMP
+#
 $CMP SI8641AB-B-IS1R
 D Digital Isolators 2.5 kV 3 forward & 1 reverse 4-channel isolator
 F https://componentsearchengine.com/Datasheets/1/SI8641AB-B-IS1R.pdf
