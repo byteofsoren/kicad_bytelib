@@ -1,5 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AUIRLR3410TRL
+D 0.25A Id, 200V Vds, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F https://www.mouser.se/datasheet/2/196/auirlr3410-1225220.pdf
+$ENDCMP
+#
+$CMP NTF5P03T3G
+D Power MOSFET
+F http://www.onsemi.com/pub/Collateral/NTF5P03T3-D.PDF
+$ENDCMP
+#
 $CMP TSM480P06CP
 D 19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2
 K TrenchFET P-Channel Power MOSFET
