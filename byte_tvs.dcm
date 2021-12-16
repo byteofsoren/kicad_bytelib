@@ -10,4 +10,10 @@ K TVS
 F https://www.mouser.se/datasheet/2/761/SEMT_S_A0007085888_1-2575813.pdf
 $ENDCMP
 #
+$CMP WE-TVS_82400102
+D TVS diode from Wurth used in USB comunication
+K TVS,USB
+F https://www.we-online.com/catalog/datasheet/82400102.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -4,4 +4,10 @@ $CMP ESDALD05
 D The ESDALD05UD4 is designed to protect voltage sensitive
 $ENDCMP
 #
+$CMP SRDA05-6.TBT
+D Surge rated diode array designed to protect high speed data interfaces.
+K TVS
+F https://www.mouser.se/datasheet/2/761/SEMT_S_A0007085888_1-2575813.pdf
+$ENDCMP
+#
 #End Doc Library
