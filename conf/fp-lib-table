@@ -145,4 +145,5 @@
   (lib (name digikey-footprints)(type KiCad)(uri ${DIGKEY}/digikey-footprints.pretty)(options "")(descr "DigiKey footprints"))
   (lib (name byte_buttons)(type KiCad)(uri ${BYTELIB}/byte_buttons.pretty)(options "")(descr "Byte Buttons"))
   (lib (name byte_isolation_ic)(type KiCad)(uri /home/r00tr4t/.kicad/bytelib_kicad/byte_isolation_ic.pretty)(options "")(descr "Byte isolation IC"))
+  (lib (name byte_diodes)(type KiCad)(uri /home/r00tr4t/.kicad/bytelib_kicad/byte_diodes.pretty)(options "")(descr ""))
 )
