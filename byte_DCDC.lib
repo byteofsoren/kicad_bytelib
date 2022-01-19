@@ -180,6 +180,30 @@ X -VIN_(GND)_2 3 0 -300 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# THN_15-1210
+#
+DEF THN_15-1210 PS 0 30 Y Y 1 F N
+F0 "PS" -200 400 50 H V L CNN
+F1 "THN_15-1210" -250 250 50 H V L CNN
+F2 "byte_DCDC:THN151210" 1450 100 50 H I L CNN
+F3 "" 1450 0 50 H I L CNN
+F4 "15 Watt DC/DC converter, industrial, 2:1 input, encpasulated, 1\" x 1\" metal package" 1450 -100 50 H I L CNN "Description"
+F5 "10.4" 1450 -200 50 H I L CNN "Height"
+F6 "495-THN15-1210" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TRACO-Power/THN-15-1210?qs=ckJk83FOD0U8e5YNzyB5ug%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Traco Power" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "THN 15-1210" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S -500 200 550 -200 0 1 0 f
+X +VIN_(VCC) 1 -700 150 200 R 50 50 0 0 I
+X GND1 2 -700 -150 200 R 50 50 0 0 P
+X +VOUT 3 750 150 200 L 50 50 0 0 O
+X TRIM 4 750 0 200 L 50 50 0 0 P
+X GND2 5 750 -150 200 L 50 50 0 0 P
+X REMOTE_ON/OFF 6 -700 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # TPS2120
 #
 DEF TPS2120 U 0 40 Y Y 1 F N

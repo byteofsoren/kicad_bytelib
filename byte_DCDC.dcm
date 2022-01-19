@@ -29,6 +29,11 @@ D 3 Watt DC/DC converter, industrial, 2:1 input, cost optimized design, encapsul
 F https://tracopower.com/ten3n-datasheet/
 $ENDCMP
 #
+$CMP THN_15-1210
+D 15 Watt DC/DC converter, industrial, 2:1 input, encpasulated, 1" x 1" metal package
+F https://tracopower.com/thn15-datasheet/
+$ENDCMP
+#
 $CMP TPS2120
 D Power multiplexer.
 K Power,MUX
